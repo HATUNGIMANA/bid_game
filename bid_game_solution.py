@@ -1,5 +1,5 @@
 import os
-print("\nWelcome biders! Let's get started with the first to auction")
+print("\nWelcome bidders! Let's get started with the first to auction")
 def clear_console():
     os.system('cls' if os.name == 'nt' else 'clear')
 
@@ -14,7 +14,7 @@ def auction():
         bids_made[name] = b
 
             
-        cdtn = input("\nAre there any other biders? (Type Yes or No) ").lower()
+        cdtn = input("\nAre there any other bidders? (Type Yes or No) ").lower()
 
         while cdtn != "no":
 
