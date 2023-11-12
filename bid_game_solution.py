@@ -8,7 +8,7 @@ def auction():
     bids_list = []
     while True:
         name = input("What is your name ")
-        print(f"Hi {name}, Please enter your bid")
+        print(f"Hi {name}, Please enter your bid.")
         b = int(input())
         bids_list.append(b)
         bids_made[name] = b
