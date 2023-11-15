@@ -1,5 +1,5 @@
 import os
-print("\nWelcome bidders! Let's get started with the first to auction")
+print("\nWelcome bidders! Let's get started with the first to auction.")
 def clear_console():
     os.system('cls' if os.name == 'nt' else 'clear')
 
