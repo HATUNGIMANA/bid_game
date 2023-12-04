@@ -25,7 +25,7 @@ def auction():
               
             elif cdtn == "yes":
                 clear_console()
-                print("\nAlright! Let's get the information of the next bider. Please Enter your information below: \n")
+                print("\nAlright! Let's get the information of the next bidder. Please Enter your information below: \n")
                 break
                 
         else:
